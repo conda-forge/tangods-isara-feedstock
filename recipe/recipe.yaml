@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: 3.11
-  version: 5.0.0
+  version: "5.1.0"
 
 package:
   name: tangods-isara
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/tangods-isara/tangods_isara-${{ version }}.tar.gz
-  sha256: c78b04c3c0b8ef90f48eba9dce037db1abcc57b9d88df98444327be5f767fc97
+  sha256: bbd9d314b5b84c6692523fa760d284cee87a9d5b01f3d2e57e7f4403e5d99645
 
 build:
   number: 0
